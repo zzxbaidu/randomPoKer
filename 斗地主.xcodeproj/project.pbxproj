@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B8760E1E0A572500AAAEF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8760D1E0A572500AAAEF0 /* main.m */; };
+		06B876111E0A572600AAAEF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876101E0A572600AAAEF0 /* AppDelegate.m */; };
+		06B876141E0A572600AAAEF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876131E0A572600AAAEF0 /* ViewController.m */; };
+		06B876171E0A572700AAAEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B876151E0A572700AAAEF0 /* Main.storyboard */; };
+		06B876191E0A572800AAAEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B876181E0A572800AAAEF0 /* Assets.xcassets */; };
+		06B8761C1E0A572800AAAEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B8761A1E0A572800AAAEF0 /* LaunchScreen.storyboard */; };
+		06B876271E0A572A00AAAEF0 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876261E0A572A00AAAEF0 /* ___Tests.m */; };
+		06B876321E0A572A00AAAEF0 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876311E0A572A00AAAEF0 /* ___UITests.m */; };
+		06B876591E0A65B400AAAEF0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876411E0A65B400AAAEF0 /* MASCompositeConstraint.m */; };
+		06B8765A1E0A65B400AAAEF0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876441E0A65B400AAAEF0 /* MASConstraint.m */; };
+		06B8765B1E0A65B400AAAEF0 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876461E0A65B400AAAEF0 /* MASConstraintMaker.m */; };
+		06B8765C1E0A65B400AAAEF0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876481E0A65B400AAAEF0 /* MASLayoutConstraint.m */; };
+		06B8765D1E0A65B400AAAEF0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8764C1E0A65B400AAAEF0 /* MASViewAttribute.m */; };
+		06B8765E1E0A65B400AAAEF0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8764E1E0A65B400AAAEF0 /* MASViewConstraint.m */; };
+		06B8765F1E0A65B400AAAEF0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876501E0A65B400AAAEF0 /* NSArray+MASAdditions.m */; };
+		06B876601E0A65B400AAAEF0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876531E0A65B400AAAEF0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		06B876611E0A65B400AAAEF0 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876551E0A65B400AAAEF0 /* View+MASAdditions.m */; };
+		06B876621E0A65B400AAAEF0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B876581E0A65B400AAAEF0 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06B876231E0A572A00AAAEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B876011E0A572400AAAEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06B876081E0A572500AAAEF0;
+			remoteInfo = "斗地主";
+		};
+		06B8762E1E0A572A00AAAEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B876011E0A572400AAAEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06B876081E0A572500AAAEF0;
+			remoteInfo = "斗地主";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B876091E0A572500AAAEF0 /* 斗地主.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗地主.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B8760D1E0A572500AAAEF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06B8760F1E0A572500AAAEF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06B876101E0A572600AAAEF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06B876121E0A572600AAAEF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06B876131E0A572600AAAEF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06B876161E0A572700AAAEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06B876181E0A572800AAAEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06B8761B1E0A572800AAAEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06B8761D1E0A572900AAAEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B876221E0A572A00AAAEF0 /* 斗地主Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗地主Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B876261E0A572A00AAAEF0 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		06B876281E0A572A00AAAEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B8762D1E0A572A00AAAEF0 /* 斗地主UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗地主UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B876311E0A572A00AAAEF0 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		06B876331E0A572A00AAAEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B876401E0A65B400AAAEF0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		06B876411E0A65B400AAAEF0 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		06B876421E0A65B400AAAEF0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		06B876431E0A65B400AAAEF0 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		06B876441E0A65B400AAAEF0 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		06B876451E0A65B400AAAEF0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		06B876461E0A65B400AAAEF0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		06B876471E0A65B400AAAEF0 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		06B876481E0A65B400AAAEF0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		06B876491E0A65B400AAAEF0 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		06B8764A1E0A65B400AAAEF0 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		06B8764B1E0A65B400AAAEF0 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		06B8764C1E0A65B400AAAEF0 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		06B8764D1E0A65B400AAAEF0 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		06B8764E1E0A65B400AAAEF0 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		06B8764F1E0A65B400AAAEF0 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		06B876501E0A65B400AAAEF0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		06B876511E0A65B400AAAEF0 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		06B876521E0A65B400AAAEF0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		06B876531E0A65B400AAAEF0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		06B876541E0A65B400AAAEF0 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		06B876551E0A65B400AAAEF0 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		06B876561E0A65B400AAAEF0 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		06B876571E0A65B400AAAEF0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		06B876581E0A65B400AAAEF0 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06B876061E0A572500AAAEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B8761F1E0A572A00AAAEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B8762A1E0A572A00AAAEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06B876001E0A572400AAAEF0 = {
+			isa = PBXGroup;
+			children = (
+				06B8760B1E0A572500AAAEF0 /* 斗地主 */,
+				06B876251E0A572A00AAAEF0 /* 斗地主Tests */,
+				06B876301E0A572A00AAAEF0 /* 斗地主UITests */,
+				06B8760A1E0A572500AAAEF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06B8760A1E0A572500AAAEF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06B876091E0A572500AAAEF0 /* 斗地主.app */,
+				06B876221E0A572A00AAAEF0 /* 斗地主Tests.xctest */,
+				06B8762D1E0A572A00AAAEF0 /* 斗地主UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06B8760B1E0A572500AAAEF0 /* 斗地主 */ = {
+			isa = PBXGroup;
+			children = (
+				06B8763F1E0A65B400AAAEF0 /* Masonry */,
+				06B8760F1E0A572500AAAEF0 /* AppDelegate.h */,
+				06B876101E0A572600AAAEF0 /* AppDelegate.m */,
+				06B876121E0A572600AAAEF0 /* ViewController.h */,
+				06B876131E0A572600AAAEF0 /* ViewController.m */,
+				06B876151E0A572700AAAEF0 /* Main.storyboard */,
+				06B876181E0A572800AAAEF0 /* Assets.xcassets */,
+				06B8761A1E0A572800AAAEF0 /* LaunchScreen.storyboard */,
+				06B8761D1E0A572900AAAEF0 /* Info.plist */,
+				06B8760C1E0A572500AAAEF0 /* Supporting Files */,
+			);
+			path = "斗地主";
+			sourceTree = "<group>";
+		};
+		06B8760C1E0A572500AAAEF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06B8760D1E0A572500AAAEF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06B876251E0A572A00AAAEF0 /* 斗地主Tests */ = {
+			isa = PBXGroup;
+			children = (
+				06B876261E0A572A00AAAEF0 /* ___Tests.m */,
+				06B876281E0A572A00AAAEF0 /* Info.plist */,
+			);
+			path = "斗地主Tests";
+			sourceTree = "<group>";
+		};
+		06B876301E0A572A00AAAEF0 /* 斗地主UITests */ = {
+			isa = PBXGroup;
+			children = (
+				06B876311E0A572A00AAAEF0 /* ___UITests.m */,
+				06B876331E0A572A00AAAEF0 /* Info.plist */,
+			);
+			path = "斗地主UITests";
+			sourceTree = "<group>";
+		};
+		06B8763F1E0A65B400AAAEF0 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				06B876401E0A65B400AAAEF0 /* MASCompositeConstraint.h */,
+				06B876411E0A65B400AAAEF0 /* MASCompositeConstraint.m */,
+				06B876421E0A65B400AAAEF0 /* MASConstraint+Private.h */,
+				06B876431E0A65B400AAAEF0 /* MASConstraint.h */,
+				06B876441E0A65B400AAAEF0 /* MASConstraint.m */,
+				06B876451E0A65B400AAAEF0 /* MASConstraintMaker.h */,
+				06B876461E0A65B400AAAEF0 /* MASConstraintMaker.m */,
+				06B876471E0A65B400AAAEF0 /* MASLayoutConstraint.h */,
+				06B876481E0A65B400AAAEF0 /* MASLayoutConstraint.m */,
+				06B876491E0A65B400AAAEF0 /* Masonry.h */,
+				06B8764A1E0A65B400AAAEF0 /* MASUtilities.h */,
+				06B8764B1E0A65B400AAAEF0 /* MASViewAttribute.h */,
+				06B8764C1E0A65B400AAAEF0 /* MASViewAttribute.m */,
+				06B8764D1E0A65B400AAAEF0 /* MASViewConstraint.h */,
+				06B8764E1E0A65B400AAAEF0 /* MASViewConstraint.m */,
+				06B8764F1E0A65B400AAAEF0 /* NSArray+MASAdditions.h */,
+				06B876501E0A65B400AAAEF0 /* NSArray+MASAdditions.m */,
+				06B876511E0A65B400AAAEF0 /* NSArray+MASShorthandAdditions.h */,
+				06B876521E0A65B400AAAEF0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				06B876531E0A65B400AAAEF0 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				06B876541E0A65B400AAAEF0 /* View+MASAdditions.h */,
+				06B876551E0A65B400AAAEF0 /* View+MASAdditions.m */,
+				06B876561E0A65B400AAAEF0 /* View+MASShorthandAdditions.h */,
+				06B876571E0A65B400AAAEF0 /* ViewController+MASAdditions.h */,
+				06B876581E0A65B400AAAEF0 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06B876081E0A572500AAAEF0 /* 斗地主 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B876361E0A572A00AAAEF0 /* Build configuration list for PBXNativeTarget "斗地主" */;
+			buildPhases = (
+				06B876051E0A572500AAAEF0 /* Sources */,
+				06B876061E0A572500AAAEF0 /* Frameworks */,
+				06B876071E0A572500AAAEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "斗地主";
+			productName = "斗地主";
+			productReference = 06B876091E0A572500AAAEF0 /* 斗地主.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06B876211E0A572A00AAAEF0 /* 斗地主Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B876391E0A572A00AAAEF0 /* Build configuration list for PBXNativeTarget "斗地主Tests" */;
+			buildPhases = (
+				06B8761E1E0A572A00AAAEF0 /* Sources */,
+				06B8761F1E0A572A00AAAEF0 /* Frameworks */,
+				06B876201E0A572A00AAAEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06B876241E0A572A00AAAEF0 /* PBXTargetDependency */,
+			);
+			name = "斗地主Tests";
+			productName = "斗地主Tests";
+			productReference = 06B876221E0A572A00AAAEF0 /* 斗地主Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06B8762C1E0A572A00AAAEF0 /* 斗地主UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B8763C1E0A572A00AAAEF0 /* Build configuration list for PBXNativeTarget "斗地主UITests" */;
+			buildPhases = (
+				06B876291E0A572A00AAAEF0 /* Sources */,
+				06B8762A1E0A572A00AAAEF0 /* Frameworks */,
+				06B8762B1E0A572A00AAAEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06B8762F1E0A572A00AAAEF0 /* PBXTargetDependency */,
+			);
+			name = "斗地主UITests";
+			productName = "斗地主UITests";
+			productReference = 06B8762D1E0A572A00AAAEF0 /* 斗地主UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06B876011E0A572400AAAEF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "周尊贤";
+				TargetAttributes = {
+					06B876081E0A572500AAAEF0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N9EV8487M2;
+						ProvisioningStyle = Automatic;
+					};
+					06B876211E0A572A00AAAEF0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N9EV8487M2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06B876081E0A572500AAAEF0;
+					};
+					06B8762C1E0A572A00AAAEF0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N9EV8487M2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06B876081E0A572500AAAEF0;
+					};
+				};
+			};
+			buildConfigurationList = 06B876041E0A572400AAAEF0 /* Build configuration list for PBXProject "斗地主" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06B876001E0A572400AAAEF0;
+			productRefGroup = 06B8760A1E0A572500AAAEF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06B876081E0A572500AAAEF0 /* 斗地主 */,
+				06B876211E0A572A00AAAEF0 /* 斗地主Tests */,
+				06B8762C1E0A572A00AAAEF0 /* 斗地主UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06B876071E0A572500AAAEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B8761C1E0A572800AAAEF0 /* LaunchScreen.storyboard in Resources */,
+				06B876191E0A572800AAAEF0 /* Assets.xcassets in Resources */,
+				06B876171E0A572700AAAEF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B876201E0A572A00AAAEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B8762B1E0A572A00AAAEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06B876051E0A572500AAAEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B876601E0A65B400AAAEF0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				06B8765E1E0A65B400AAAEF0 /* MASViewConstraint.m in Sources */,
+				06B876591E0A65B400AAAEF0 /* MASCompositeConstraint.m in Sources */,
+				06B8765F1E0A65B400AAAEF0 /* NSArray+MASAdditions.m in Sources */,
+				06B876141E0A572600AAAEF0 /* ViewController.m in Sources */,
+				06B876111E0A572600AAAEF0 /* AppDelegate.m in Sources */,
+				06B8765C1E0A65B400AAAEF0 /* MASLayoutConstraint.m in Sources */,
+				06B8760E1E0A572500AAAEF0 /* main.m in Sources */,
+				06B876621E0A65B400AAAEF0 /* ViewController+MASAdditions.m in Sources */,
+				06B876611E0A65B400AAAEF0 /* View+MASAdditions.m in Sources */,
+				06B8765D1E0A65B400AAAEF0 /* MASViewAttribute.m in Sources */,
+				06B8765A1E0A65B400AAAEF0 /* MASConstraint.m in Sources */,
+				06B8765B1E0A65B400AAAEF0 /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B8761E1E0A572A00AAAEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B876271E0A572A00AAAEF0 /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B876291E0A572A00AAAEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B876321E0A572A00AAAEF0 /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06B876241E0A572A00AAAEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06B876081E0A572500AAAEF0 /* 斗地主 */;
+			targetProxy = 06B876231E0A572A00AAAEF0 /* PBXContainerItemProxy */;
+		};
+		06B8762F1E0A572A00AAAEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06B876081E0A572500AAAEF0 /* 斗地主 */;
+			targetProxy = 06B8762E1E0A572A00AAAEF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06B876151E0A572700AAAEF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06B876161E0A572700AAAEF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06B8761A1E0A572800AAAEF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06B8761B1E0A572800AAAEF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06B876341E0A572A00AAAEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06B876351E0A572A00AAAEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06B876371E0A572A00AAAEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "斗地主/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06B876381E0A572A00AAAEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "斗地主/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06B8763A1E0A572A00AAAEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "斗地主Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/斗地主.app/斗地主";
+			};
+			name = Debug;
+		};
+		06B8763B1E0A572A00AAAEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "斗地主Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/斗地主.app/斗地主";
+			};
+			name = Release;
+		};
+		06B8763D1E0A572A00AAAEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "斗地主UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "斗地主";
+			};
+			name = Debug;
+		};
+		06B8763E1E0A572A00AAAEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "斗地主UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "斗地主";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06B876041E0A572400AAAEF0 /* Build configuration list for PBXProject "斗地主" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B876341E0A572A00AAAEF0 /* Debug */,
+				06B876351E0A572A00AAAEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06B876361E0A572A00AAAEF0 /* Build configuration list for PBXNativeTarget "斗地主" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B876371E0A572A00AAAEF0 /* Debug */,
+				06B876381E0A572A00AAAEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06B876391E0A572A00AAAEF0 /* Build configuration list for PBXNativeTarget "斗地主Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B8763A1E0A572A00AAAEF0 /* Debug */,
+				06B8763B1E0A572A00AAAEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06B8763C1E0A572A00AAAEF0 /* Build configuration list for PBXNativeTarget "斗地主UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B8763D1E0A572A00AAAEF0 /* Debug */,
+				06B8763E1E0A572A00AAAEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06B876011E0A572400AAAEF0 /* Project object */;
+}
